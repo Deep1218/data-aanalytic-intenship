@@ -1,4 +1,4 @@
-## Let us understand what is Meteorology: 
+# Let us understand what is Meteorology: 
 
 "Meteorology is a branch of the atmospheric sciences which includes atmospheric chemistry
 and atmospheric physics, with a major focus on weather forecasting. For more knowledge
@@ -24,9 +24,9 @@ question. In this scenario, we are going to read weather History.csv as our data
 corrupted, incorrectly formatted, duplicate, or incomplete data within a dataset. Dropping
 unwanted data and converting it according to our requirements.
 
-# **NOTE:** We need to analyze data yearly. We need to convert Formatted Date into 
+> **NOTE:** We need to analyze data yearly. We need to convert Formatted Date into 
 DateTime format. We will do it by using the Pandas method to_datetime(). Also, 
-we will set Formatted Date as the index to the dataset and resample our data. #
+we will set Formatted Date as the index to the dataset and resample our data.
 
 **Step 4- Plotting of Data:** The purpose of plotting data is to visualize variation or show
 relationships between variables. We will now plot the line graph to display Humidity and
@@ -44,5 +44,5 @@ problem statements and giving many of us a Coding Internship Experience. Thank y
 [link text itself] (www.suvenconsultants.com)
 
 
-# **Note:** This conclusion statement is for only the month of January, please refer to
-the model for all the months. #
+> **Note:** This conclusion statement is for only the month of January, please refer to
+the model for all the months.
