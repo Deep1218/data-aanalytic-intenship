@@ -1,12 +1,12 @@
-## Let us understand what is Meteorology: 
+# Let us understand what is Meteorology: 
 
 "Meteorology is a branch of the atmospheric sciences which includes atmospheric chemistry
 and atmospheric physics, with a major focus on weather forecasting. For more knowledge
-refer [link text itself](https://en.wikipedia.org/wiki/Meteorology)". 
+refer https://en.wikipedia.org/wiki/Meteorology". 
 
-You can find the data set on Kaggle [Dataset] (https://www.kaggle.com/muthuj7/weather-
-dataset). We are going to use NumPy, Pandas, and Matplotlib of Python to import, extract,
-clean, transform and plot.
+You can find the data set on Kaggle https://www.kaggle.com/muthuj7/weather-dataset.
+We are going to use NumPy, Pandas, and Matplotlib of Python to import, extract, clean,
+transform and plot.
 
 **Hypothesis:** Has the Apparent temperature and humidity compared monthly across 10 years
 of the data indicate an increase due to Global warming?
@@ -24,9 +24,9 @@ question. In this scenario, we are going to read weather History.csv as our data
 corrupted, incorrectly formatted, duplicate, or incomplete data within a dataset. Dropping
 unwanted data and converting it according to our requirements.
 
-# **NOTE:** We need to analyze data yearly. We need to convert Formatted Date into 
+> **NOTE:** We need to analyze data yearly. We need to convert Formatted Date into 
 DateTime format. We will do it by using the Pandas method to_datetime(). Also, 
-we will set Formatted Date as the index to the dataset and resample our data. #
+we will set Formatted Date as the index to the dataset and resample our data.
 
 **Step 4- Plotting of Data:** The purpose of plotting data is to visualize variation or show
 relationships between variables. We will now plot the line graph to display Humidity and
@@ -39,10 +39,10 @@ As we can analyze there isn’t any change in humidity in the past 10 years(2006
 the month of January. whereas temperature increases sharply in 2009 and drops in 2015 for
 the rest of the years there isn’t any sharp change in the temperature.
 
-I am thankful to mentors at [link text itself](https://internship.suvenconsultants.com) for providing awesome
+I am thankful to mentors at https://internship.suvenconsultants.com for providing awesome
 problem statements and giving many of us a Coding Internship Experience. Thank you
-[link text itself] (www.suvenconsultants.com)
+www.suvenconsultants.com
 
 
-# **Note:** This conclusion statement is for only the month of January, please refer to
-the model for all the months. #
+> **Note:** This conclusion statement is for only the month of January, please refer to
+the model for all the months.
